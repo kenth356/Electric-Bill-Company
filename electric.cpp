@@ -131,13 +131,13 @@ void dataBASE() {
 
 void disPLAY() {
     for (const auto &customer : customersD) {
-        cout <<
+        cout << endl <<
         "CUSTOMER NAME: " << customer.customerNAME << "\n" <<
-        "TOTAL KILOWATT USAGE: " << customer.totalKWU << "\n" <<
-        "RATE PER KILOWATT: " << customer.ratePKU << "\n" <<
-        "GROSS AMOUNT: " << customer.groAMT << "\n" <<
-        "MISCELLANEOUS CHARGE: " << customer.misceCHAR << "\n" <<
-        "TOTAL AMOUNT DUE: " << customer.totalAMT << "\n" << endl;
+        "TOTAL KILOWATT USAGE: " << customer.totalKWU << " kWh" << "\n" <<
+        "RATE PER KILOWATT: " << customer.ratePKU << " kWh" << "\n" <<
+        "GROSS AMOUNT: " << customer.groAMT << " PHP" << "\n" <<
+        "MISCELLANEOUS CHARGE: " << customer.misceCHAR  << " PHP" << "\n" <<
+        "TOTAL AMOUNT DUE: " << customer.totalAMT << " PHP" << "\n" << endl;
     }
 }
 
@@ -151,12 +151,12 @@ void SAVEDFILES() {
         file <<
         "CUSTOMER NAME: " << customer.customerNAME << "\n" <<
         "METER ID: " << customer.meterID << "\n" <<
-        "PREVIOUS READING: " << customer.prevREADING << "\n" <<
-        "CURRENT READING: " << customer.currREADING << "\n" <<
-        "TOTAL KILOWATT USAGE: " << customer.totalKWU << "\n" <<
-        "RATE PER KILOWATT: " << customer.ratePKU << "\n" <<
-        "GROSS AMOUNT: " << customer.groAMT << "\n" <<
-        "MISCELLANEOUS CHARGE: " << customer.misceCHAR << "\n" <<
-        "TOTAL AMOUNT DUE: " << customer.totalAMT << "\n" << endl;
+        "PREVIOUS READING: " << customer.prevREADING << " kwH" << "\n" <<
+        "CURRENT READING: " << customer.currREADING  << " kwH" << "\n" <<
+        "TOTAL KILOWATT USAGE: " << customer.totalKWU << " kwH" << "\n" <<
+        "RATE PER KILOWATT: " << customer.ratePKU << " kwH" << "\n" <<
+        "GROSS AMOUNT: " << customer.groAMT << " PHP" << "\n" <<
+        "MISCELLANEOUS CHARGE: " << customer.misceCHAR << " PHP" << "\n" <<
+        "TOTAL AMOUNT DUE: " << customer.totalAMT << " PHP" << "\n" << endl;
     }
 }
