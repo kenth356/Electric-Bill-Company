@@ -142,7 +142,7 @@ void disPLAY() {
 }
 
 void exit() {
-    cout << "\n[THANK YOU FOR USING]";
+    cout << "\n[THANK YOU FOR USING]" << endl;
 }
 
 void SAVEDFILES() {
